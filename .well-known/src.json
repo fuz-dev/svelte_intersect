@@ -1,0 +1,48 @@
+{
+  "name": "@fuz.dev/svelte_intersect",
+  "version": "0.7.0",
+  "modules": {
+    ".": {
+      "path": "index.ts",
+      "declarations": []
+    },
+    "./intersect.js": {
+      "path": "intersect.ts",
+      "declarations": [
+        {
+          "name": "Intersect_Callback",
+          "kind": "type"
+        },
+        {
+          "name": "Intersect_Params",
+          "kind": "type"
+        },
+        {
+          "name": "Intersect_Params_Or_Callback",
+          "kind": "type"
+        },
+        {
+          "name": "intersect",
+          "kind": "function"
+        }
+      ]
+    },
+    "./package.gen.js": {
+      "path": "package.gen.ts",
+      "declarations": []
+    },
+    "./package.js": {
+      "path": "package.ts",
+      "declarations": [
+        {
+          "name": "package_json",
+          "kind": "variable"
+        },
+        {
+          "name": "src_json",
+          "kind": "variable"
+        }
+      ]
+    }
+  }
+}

@@ -28,8 +28,8 @@
     "@feltjs/eslint-config": "^0.4.1",
     "@fuz.dev/fuz": "^0.79.3",
     "@fuz.dev/fuz_code": "^0.4.3",
-    "@fuz.dev/fuz_library": "^0.20.0",
-    "@grogarden/gro": "^0.101.0",
+    "@fuz.dev/fuz_library": "^0.21.0",
+    "@grogarden/gro": "^0.102.0",
     "@grogarden/util": "^0.16.0",
     "@sveltejs/adapter-static": "^2.0.3",
     "@sveltejs/kit": "^1.27.3",
@@ -85,46 +85,6 @@
     "./package.js": {
       "default": "./dist/package.js",
       "types": "./dist/package.d.ts"
-    }
-  },
-  "modules": {
-    ".": {
-      "path": "index.ts",
-      "declarations": []
-    },
-    "./intersect.js": {
-      "path": "intersect.ts",
-      "declarations": [
-        {
-          "name": "Intersect_Callback",
-          "kind": "type"
-        },
-        {
-          "name": "Intersect_Params",
-          "kind": "type"
-        },
-        {
-          "name": "Intersect_Params_Or_Callback",
-          "kind": "type"
-        },
-        {
-          "name": "intersect",
-          "kind": "function"
-        }
-      ]
-    },
-    "./package.gen.js": {
-      "path": "package.gen.ts",
-      "declarations": []
-    },
-    "./package.js": {
-      "path": "package.ts",
-      "declarations": [
-        {
-          "name": "package_json",
-          "kind": "variable"
-        }
-      ]
     }
   }
 }
